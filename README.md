@@ -6,7 +6,9 @@ this Toutorial will describe step by steb how to deploy sample application on ak
 We suppose that Step 0 that concern high level design is done
 in this sample, we will use standard reference architecture described here https://learn.microsoft.com/en-us/azure/architecture/reference-architectures/containers/aks-microservices/aks-microservices
 
-![alt text](https://github.com/whynotm/mjd-aks-terraform-ci-cd/blob/dev/Images/aks.svg?raw=true)
+
+<img src="./Images/aks.svg">
+
 
 ## Step 1
 Infrastructure Deployement
@@ -35,7 +37,7 @@ test our Application
 ## Welcome comment
 
 
-## versioning
+## Versioning
 version : mjd-00001
 
 
