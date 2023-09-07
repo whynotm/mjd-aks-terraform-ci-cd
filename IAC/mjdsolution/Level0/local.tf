@@ -74,5 +74,6 @@ resource "random_string" "prefix" {
   length  = 4
   special = false
   upper   = false
-  number  = false
+  #number  = false  ## Because is deprecated . i m on 07/09/2023. Terraform v1.5.6  .   provider registry.terraform.io/hashicorp/random v3.3.2
+  numeric = false
 }

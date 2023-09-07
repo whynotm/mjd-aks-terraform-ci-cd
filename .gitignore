@@ -6,4 +6,12 @@
 *.tfstate
 *.tfstate.*
 *.log
+*backendConf.hcl
+**/backendConf.hcl*/
+**/*.hcl/*
+
+*.plan
+*.plan.*
+**/*.plan/*
+
 #*.tfvars
