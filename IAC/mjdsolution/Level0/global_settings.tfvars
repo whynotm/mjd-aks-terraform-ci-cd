@@ -7,5 +7,4 @@ global_settings = {
   prefix = "mjds2c"
 }
 
-
 logged_user_objectId = "54b340ab-c20c-40ef-b9e7-4efb26276ffe"

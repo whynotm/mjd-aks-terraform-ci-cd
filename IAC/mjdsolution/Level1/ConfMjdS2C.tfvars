@@ -7,6 +7,7 @@ CONFmjds2c = {
         
     }
     
+    #TO GET FROM LEVEL0
     subscription = { #MWE CAN SET anagement Subscription : a32a7cc4-6bf5-4209-aa88-a03bb7182e27
         subscription_id      = "a32a7cc4-6bf5-4209-aa88-a03bb7182e27" #data.azurerm_client_config.default.subscription_id
     }
@@ -17,11 +18,19 @@ CONFmjds2c = {
     
     landingzone = {
         current = { 
-            level                = "level0"
-            key                  = "lz-confmjds2c-level0.tfstate"  
+            level                = "level1"
+            key                  = "lz-confmjds2c-level1.tfstate"  
             landingzone_tag = {
                           lztag = "mjds2cTAGS"
                      }  
+        }
+        remotefstate = {
+                level0tfstate   = {
+                        level = "level0"
+                        key = "lz-confmjds2c-level0.tfstate"
+
+                }
+
         }
     }
     

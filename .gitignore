@@ -9,9 +9,13 @@
 *backendConf.hcl
 **/backendConf.hcl*/
 **/*.hcl/*
-
+.terraform.lock.hcl
+**/.terraform.lock.hcl/*
 *.plan
 *.plan.*
 **/*.plan/*
 
+*.exe
+*.exe.*
+**/*.exe/*
 #*.tfvars
