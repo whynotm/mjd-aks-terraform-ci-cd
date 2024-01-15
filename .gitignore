@@ -14,7 +14,8 @@
 *.plan
 *.plan.*
 **/*.plan/*
-
+*.vs*
+**/.vs/*
 *.exe
 *.exe.*
 **/*.exe/*
